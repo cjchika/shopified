@@ -226,11 +226,19 @@
               "question": "Do you give discount for bulk purchase?",
               "answer": "<p>Yeah, huge purchase attracts huge discount.<\/p>"
             }
+          },
+          "c9a72391-6eeb-458e-89cb-44b910d6b375": {
+            "type": "faq",
+            "settings": {
+              "question": "I want express shipping?",
+              "answer": "<p>Yea, express shipping attracts extra fee.<\/p>"
+            }
           }
         },
         "block_order": [
           "785ca5a2-c564-421e-883e-94f0607924ba",
-          "eb9c1911-61da-4522-9ac5-0bd30f58bfe0"
+          "eb9c1911-61da-4522-9ac5-0bd30f58bfe0",
+          "c9a72391-6eeb-458e-89cb-44b910d6b375"
         ],
         "settings": {
         }
