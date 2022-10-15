@@ -4,7 +4,10 @@
 			{% assign item = block.settings %}
 			<div class="tab">
 				<input type="checkbox" class="faq-checkbox" id="faq_checkbox">
-				<label for="faq_checkbox">{{ item.question }}</label>
+				<label for="faq_checkbox" class="tab-label">{{ item.question }}</label>
+				<div class="tab-content">
+					{{ item.answer }}
+				</div>
 			</div>
 		{% endfor %}
 	</div>
