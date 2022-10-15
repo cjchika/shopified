@@ -3,8 +3,8 @@
 		{% for block in section.blocks %}
 			{% assign item = block.settings %}
 			<div class="tab">
-				<input type="checkbox" class="faq-checkbox" id="faq_checkbox">
-				<label for="faq_checkbox" class="tab-label">{{ item.question }}</label>
+				<input type="checkbox" class="faq-checkbox" id="faq_checkbox_{{ block.id }}">
+				<label for="faq_checkbox_{{ block.id }}" class="tab-label">{{ item.question }}</label>
 				<div class="tab-content">
 					{{ item.answer }}
 				</div>
