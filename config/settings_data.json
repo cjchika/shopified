@@ -219,10 +219,18 @@
               "question": "Do you ship internationally?",
               "answer": "<p>Yes, we ship overseas!<\/p>"
             }
+          },
+          "eb9c1911-61da-4522-9ac5-0bd30f58bfe0": {
+            "type": "faq",
+            "settings": {
+              "question": "Do you give discount for bulk purchase?",
+              "answer": "<p>Yeah, huge purchase attracts huge discount.<\/p>"
+            }
           }
         },
         "block_order": [
-          "785ca5a2-c564-421e-883e-94f0607924ba"
+          "785ca5a2-c564-421e-883e-94f0607924ba",
+          "eb9c1911-61da-4522-9ac5-0bd30f58bfe0"
         ],
         "settings": {
         }
