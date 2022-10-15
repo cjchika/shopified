@@ -1,3 +1,16 @@
+<div class="faq-container">
+	<div class="tabs">
+		{% for block in section.blocks %}
+			{% assign item = block.settings %}
+			<div class="tab">
+				<input type="checkbox" class="faq-checkbox" id="faq_checkbox">
+				<label for="faq_checkbox">{{ item.question }}</label>
+			</div>
+		{% endfor %}
+	</div>
+</div>
+
+
 {% schema %}
     {
         "name": "FAQ Blocks",
