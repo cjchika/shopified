@@ -3,7 +3,12 @@
   margin: 0 auto;
 }
 
-.icontext_heading .icontext_description{
+.icontext_heading {
+  color: {{ settings.colors_accent_1 }};
+  text-align: center;
+}
+
+.icontext_description{
   color: {{ settings.colors_accent_1 }};
   text-align: center;
 }
