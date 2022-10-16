@@ -1,7 +1,15 @@
 <h3>{{ section.settings.heading }}</h3>
 <p>{{ section.settings.description }}</p>
 {% for block in section.blocks %}
-  <img src={{ block.settings.image | image_url: 'master' }} />
+  {{ section.settings.image_2 | image_url: width: 1500 | image_tag:
+        loading: 'lazy',
+        width: section.settings.image_2.width,
+        height: image_height_2,
+        class: image_class_2,
+        sizes: sizes,
+        widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+        alt: section.settings.image_2.alt | escape
+      }}
 {% endfor %}
 
 {% schema %}
