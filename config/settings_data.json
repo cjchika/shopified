@@ -246,15 +246,29 @@
       "icontext": {
         "type": "icontext",
         "blocks": {
-          "96be7983-a2a4-40ff-a063-23e967b10bdd": {
+          "8146abf0-9130-4415-9845-7d82a3c1ac79": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/dev.jpg"
+              "image": "shopify:\/\/shop_images\/retail-shopping-package.jpg"
+            }
+          },
+          "07476d93-bf37-41c6-9532-af89200721ff": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/merchant-taking-sale-with-chip-and-swipe-reader.jpg"
+            }
+          },
+          "ebbb2611-7f1c-4d8e-bd14-b8dfb35617ad": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/store-scanner-for-checkout.jpg"
             }
           }
         },
         "block_order": [
-          "96be7983-a2a4-40ff-a063-23e967b10bdd"
+          "8146abf0-9130-4415-9845-7d82a3c1ac79",
+          "07476d93-bf37-41c6-9532-af89200721ff",
+          "ebbb2611-7f1c-4d8e-bd14-b8dfb35617ad"
         ],
         "settings": {
           "heading": "New Section Heading",
