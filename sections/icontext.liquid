@@ -2,9 +2,11 @@
 <p>{{ section.settings.description }}</p>
 {% for block in section.blocks %}
   <div>
-    {{ block.settings.image | image_url: width: '500' | image_tag:
+    <div>
+      <img {{ block.settings.image | image_url: width: '500' | image_tag:
         alt: section.settings.image.alt | escape
-      }}
+      }} />
+    </div>
   </div>
 {% endfor %}
 
