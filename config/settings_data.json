@@ -257,11 +257,18 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/retail-shopping-package.jpg"
             }
+          },
+          "454ebbb5-eaab-480f-9c37-c29f04dc8cae": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/merchant-taking-sale-with-chip-and-swipe-reader.jpg"
+            }
           }
         },
         "block_order": [
           "65495191-863a-4b34-a790-7fb41498fa98",
-          "31d210d6-d5b9-4510-83b7-3dfbb88e749e"
+          "31d210d6-d5b9-4510-83b7-3dfbb88e749e",
+          "454ebbb5-eaab-480f-9c37-c29f04dc8cae"
         ],
         "settings": {
           "heading": "New Section Heading",
