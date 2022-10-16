@@ -10,4 +10,5 @@
 
 .icontext_image_container{
   display: flex;
+  direction: row;
 }
