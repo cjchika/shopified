@@ -9,11 +9,14 @@
 }
 
 .icontext_image_container{
-  display: flex;
-  direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+/*     margin-top: 3rem; */
 }
 
-@media screen and (max-width: 749px)
+/* @media screen and (max-width: 749px)
 .icontext_image_container {
   flex: row;
-}
+} */
