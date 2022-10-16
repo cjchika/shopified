@@ -245,9 +245,20 @@
       },
       "icontext": {
         "type": "icontext",
+        "blocks": {
+          "96be7983-a2a4-40ff-a063-23e967b10bdd": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dev.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "96be7983-a2a4-40ff-a063-23e967b10bdd"
+        ],
         "settings": {
           "heading": "New Section Heading",
-          "description": "<p>Just testing<\/p>"
+          "description": "<p>Testing out new section<\/p>"
         }
       }
     },
