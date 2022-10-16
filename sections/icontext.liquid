@@ -5,7 +5,7 @@
 
 <div class="icontext_image_container">
 {% for block in section.blocks %}
-      {{ block.settings.image | image_url: width: '400' | image_tag:
+      {{ block.settings.image | image_url: width: 'master' | image_tag:
         alt: section.settings.image.alt | escape
       }}
 {% endfor %}
