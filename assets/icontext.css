@@ -19,6 +19,9 @@
     justify-content: center;
 }
 
+.icontext_image_container img {
+  --media-shadow-vertical-offset: 1rem;
+}
 
 @media screen and (min-width: 800px) {
 .icontext_image_container{
