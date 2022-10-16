@@ -5,11 +5,9 @@
 
 {% for block in section.blocks %}
   <div class="icontext_image_container">
-    <div>
       {{ block.settings.image | image_url: width: '400' | image_tag:
         alt: section.settings.image.alt | escape
       }}
-    </div>
   </div>
 {% endfor %}
 
