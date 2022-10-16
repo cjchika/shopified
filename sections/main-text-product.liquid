@@ -1,6 +1,6 @@
 <div>
   <h2>{{ product.title }}</h2>
-  <img src="{{ product.featured_image | image_url: '250px' }}" />
+  <img src="{{ product.featured_image | image_url: '250px' | image_url }}" />
   {% if section.settings.show_reviews %}
     <h4>⭐⭐⭐⭐⭐</h4>
   {% endif %}
