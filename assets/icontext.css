@@ -7,3 +7,7 @@
   color: {{ settings.colors_accent_1 }};
   text-align: center;
 }
+
+.icontext_image_container{
+  display: flex;
+}
