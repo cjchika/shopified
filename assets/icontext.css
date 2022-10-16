@@ -20,7 +20,7 @@
 }
 
 .icontext_image_container img {
-  --media-shadow-vertical-offset: 1rem;
+  --media-shadow-vertical-offset: 2rem;
 }
 
 @media screen and (min-width: 800px) {
