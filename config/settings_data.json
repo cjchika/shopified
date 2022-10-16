@@ -242,6 +242,13 @@
         ],
         "settings": {
         }
+      },
+      "icontext": {
+        "type": "icontext",
+        "settings": {
+          "heading": "New Section Heading",
+          "description": "<p>Just testing<\/p>"
+        }
       }
     },
     "content_for_index": [
