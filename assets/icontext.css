@@ -24,9 +24,12 @@
 }
 
 @media screen and (min-width: 800px) {
-.icontext_image_container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    .icontext_image_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .icontext_image_container img {
+    --media-shadow-vertical-offset: 0;
+    }
 }
