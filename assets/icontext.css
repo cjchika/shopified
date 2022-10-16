@@ -23,7 +23,7 @@
 @media screen and (min-width: 800px) {
 .icontext_image_container{
     display: flex;
-    flex-wrap: row;
+    direction: row;
     justify-content: space-between;
     margin: 0;
 }
