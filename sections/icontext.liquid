@@ -3,13 +3,13 @@
 <p>{{ section.settings.description }}</p>
 </div>
 
+<div class="icontext_image_container">
 {% for block in section.blocks %}
-  <div class="icontext_image_container">
       {{ block.settings.image | image_url: width: '400' | image_tag:
         alt: section.settings.image.alt | escape
       }}
-  </div>
 {% endfor %}
+</div>
 
 {% schema %}
   {
