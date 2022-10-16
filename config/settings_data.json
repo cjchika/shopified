@@ -185,8 +185,8 @@
           "footer-2"
         ],
         "settings": {
-          "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "color_scheme": "background-2",
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": true,
@@ -241,6 +241,38 @@
           "c9a72391-6eeb-458e-89cb-44b910d6b375"
         ],
         "settings": {
+        }
+      },
+      "icontext": {
+        "type": "icontext",
+        "blocks": {
+          "65495191-863a-4b34-a790-7fb41498fa98": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/store-scanner-for-checkout.jpg"
+            }
+          },
+          "31d210d6-d5b9-4510-83b7-3dfbb88e749e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/retail-shopping-package.jpg"
+            }
+          },
+          "454ebbb5-eaab-480f-9c37-c29f04dc8cae": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/merchant-taking-sale-with-chip-and-swipe-reader.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "65495191-863a-4b34-a790-7fb41498fa98",
+          "31d210d6-d5b9-4510-83b7-3dfbb88e749e",
+          "454ebbb5-eaab-480f-9c37-c29f04dc8cae"
+        ],
+        "settings": {
+          "heading": "New Section Heading",
+          "description": "<p>Testing out new section<\/p>"
         }
       }
     },

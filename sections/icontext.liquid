@@ -1,0 +1,49 @@
+<div class="icontext_container">
+  <h2 class="icontext_heading">{{ section.settings.heading }}</h3>
+  <h5 class="icontext_description">{{ section.settings.description }}</h5>
+</div>
+
+<div class="icontext_image_container">
+{% for block in section.blocks %}
+      {{ block.settings.image | image_url: width: '350' | image_tag:
+        alt: section.settings.image.alt | escape
+      }}
+{% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "Icon Text",
+    "settings": [
+      {
+        "type": "text",
+        "label": "section heading",
+        "id": "heading"
+      },
+      {
+        "type": "richtext",
+        "label": "section description",
+        "id": "description"
+      }
+    ],
+   "blocks" : [
+     {
+       "type": "image",
+       "name": "Image Block",
+       "settings": [
+         {
+           "type": "image_picker",
+           "label": "Add Image",
+           "id": "image"
+         }
+       ]
+     }
+   ],
+    "presets" : [
+      {
+        "category": "image",
+        "name": "icon text"
+      }
+    ]
+  }
+{% endschema %}
