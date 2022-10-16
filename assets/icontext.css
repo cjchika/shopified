@@ -10,6 +10,10 @@
 
 .icontext_image_container{
   display: flex;
-  direction: row;
-  
+  direction: column;
+}
+
+@media screen and (max-width: 749px)
+.icontext_image_container {
+  flex: row;
 }
