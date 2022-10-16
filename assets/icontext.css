@@ -4,6 +4,6 @@
 }
 
 .icontext_heading{
-  color: green;
+  color: {{ settings.colors_accent_1 }};
   text-align: center;
 }
