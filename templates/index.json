@@ -1,5 +1,13 @@
 {
   "sections": {
+    "cf3e7bc8-9e23-4c89-bb22-ba8abcf264d2": {
+      "type": "profile",
+      "settings": {
+        "header": "",
+        "user_name": "John Doe",
+        "user_bio": ""
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -212,6 +220,7 @@
     }
   },
   "order": [
+    "cf3e7bc8-9e23-4c89-bb22-ba8abcf264d2",
     "image_banner",
     "rich_text",
     "featured_collection",
