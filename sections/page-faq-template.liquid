@@ -1,39 +1,59 @@
 <div class="faq-container">
-	<div class="tabs">
-		{% for block in section.blocks %}
-			{% assign item = block.settings %}
-			<div class="tab">
-				<input type="checkbox" class="faq-checkbox" id="faq_checkbox_{{ block.id }}">
-				<label for="faq_checkbox_{{ block.id }}" class="tab-label">{{ item.question }}</label>
-				<div class="tab-content">
-					{{ item.answer }}
-				</div>
-			</div>
-		{% endfor %}
-	</div>
+  <h2>{{ collections['frontpage'].title }}
+  </h2>
+
+  <div class="image_cont">
+    {% for product in collections['frontpage'].products %}
+      <div class="image_inner">
+
+        <img src="{{ product.featured_image | image_url: width: 300, height: 300 }}"/>
+        <h3>{{ product.title | link_to: product.url }}
+        </h3>
+
+        <h3>{{ product.rating }}
+        </h3>
+
+        <p>{{ product.price | money}}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="tabs">
+    {% for block in section.blocks %}
+      {% assign item = block.settings %}
+      <div class="tab">
+        <input type="checkbox" class="faq-checkbox" id="faq_checkbox_{{ block.id }}">
+        <label for="faq_checkbox_{{ block.id }}" class="tab-label">{{ item.question }}
+        </label>
+        <div class="tab-content">
+          {{ item.answer }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 
 {% schema %}
-    {
-        "name": "FAQ Blocks",
-        "blocks": [
-            {
-                "name": "FAQ Items",
-                "type": "faq",
-                "settings": [
-                    {
-											"type":"text",
-											"label":"Question",
-											"id":"question"
-                    },
-										{
-											"type":"richtext",
-											"label":"Answer",
-											"id":"answer"
-                    }
-                ]
-            }
+  {
+    "name": "FAQ Blocks",
+    "blocks": [
+      {
+        "name": "FAQ Items",
+        "type": "faq",
+        "settings": [
+          {
+            "type": "text",
+            "label": "Question",
+            "id": "question"
+          }, {
+            "type": "richtext",
+            "label": "Answer",
+            "id": "answer"
+          }
         ]
-    }
-{% endschema %}
+      }
+    ]
+  }
+{% endschema %}}}}}}}}}}}}}}}}

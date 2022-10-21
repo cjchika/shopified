@@ -1,68 +1,83 @@
+.image_cont {
+  display: flex;
+}
+
+.image_inner h3{
+    color: blue;
+    font-size: 15px
+}
+
+.image_inner h3 a{
+    text-decoration: none
+}
+
+
+.image_inner h3 a:hover{
+    color: green;
+}
+
 .faq-container {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .faq-checkbox {
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
 }
 
 .tabs {
-    border-radius: 10px;
-    overflow: hidden;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .tab {
-    width: 100%;
-    color: white;
-    overflow: hidden;
+  width: 100%;
+  color: white;
+  overflow: hidden;
 }
 
 .tab-label {
-    background-color: {{ settings.colors_accent_1 }};
-    display: flex !important;
-    justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-weight: bold;
-    cursor: pointer;
-    color: white;
+  background-color: {{ settings.colors_accent_1 }};
+  display: flex !important;
+  justify-content: space-between;
+  padding: 8px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
 }
 
 .tab-label::after {
-    content: '+';
-    width: 1em;
-    height: 1em;
-    text-align: center;
-    transition: all 0.5s;
+  content: '+';
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.5s;
 }
 
 .tab-content {
-    display: none;
+  display: none;
 }
 
-.faq-checkbox:checked+.tab-label::after {
-    content: '-';
+.faq-checkbox:checked + .tab-label::after {
+  content: '-';
 }
 
 .faq-checkbox:checked~.tab-content {
-    max-height: 100vh;
-    display: contents;
-    background-color: white;
+  max-height: 100vh;
+  display: contents;
+  background-color: white;
 
-    color: {{ settings.colors_accent_1 }};
-    transition: all 0.5s;
-    font-weight: bold;
+  color: {{ settings.colors_accent_1 }};
+  transition: all 0.5s;
+  font-weight: bold;
 
 }
 
 .faq-checkbox:checked~.tab-content p {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}}
